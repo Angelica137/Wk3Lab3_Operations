@@ -19,7 +19,7 @@ public class Operators {
 		System.out.print("java Operators ");
 		String command = user_input.next();
 
-		// instnaitae an object from user input
+		// instantiae an object from user input
 		Operators o1 = new Operators(command);
 		System.out.println(o1);
 	}
