@@ -29,8 +29,20 @@ public class Operators {
 	public String operator() {
 		if (formatString()[0].equals("add")) {
 			return " + ";
+		} else if (formatString()[0].equals("sum")) {
+			return "+";
+		} else if (formatString()[0].equals("substract")) {
+			return "-";
+		} else if (formatString()[0].equals("multiply")) {
+			return "*";
+		} else if (formatString()[0].equals("mult")) {
+			return "*";
+		} else if (formatString()[0].equals("divide")) {
+			return "/";
+		} else if (formatString()[0].equals("div")) {
+			return "/";
 		} else {
-			return "error";
+			return "We do not decognise that operator";
 		}
 
 	}
