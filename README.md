@@ -14,7 +14,32 @@ Implement the operations add and subtract. The program should print error messag
 
 Tip: you can use Integer.parseInt(s) to convert a String to an int. This operation throws a NumberFormatException. Have a look at p.401 of the Java book for the try/catch logic.
 
+### How to run the program
+
+enter
+
+```
+javac Operators.java
+java Operators
+```
+
+You will see "java Operators" in the command line
+enter the operator you want to carry out and the integers you want the operation to be carried on, for example:
+
+```
+add 2 2
+```
+
+To meet requirements these are to be entered on the same line as the copy displayed when the program is started, so once you are done entering your commands, the command line will look like this:
+
+```
+java Operators add 2 2
+```
+
+once you hit enter, the result will be calculated and you will see your answer in the command line
+
 ### Future
 
-refactor if else statments
-it would be good if I can autmate the testing
+- refactor if else statments
+- it would be good if I can autmate the testing
+- user errors need to be considered and added
