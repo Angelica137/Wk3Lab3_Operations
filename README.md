@@ -13,3 +13,7 @@ Implement the operations add and subtract. The program should print error messag
 - error cannot convert 7 and 9.9 to integers
 
 Tip: you can use Integer.parseInt(s) to convert a String to an int. This operation throws a NumberFormatException. Have a look at p.401 of the Java book for the try/catch logic.
+
+### Future
+
+refactor if else statments
