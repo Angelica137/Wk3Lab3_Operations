@@ -73,4 +73,9 @@ public class Operators {
 			return 404;
 		}
 	}
+
+	// format the resutl
+	public void answer() {
+		System.out.println(firstInt() + " " + operator() + " " + secondInt() + " = " + result());
+	}
 }

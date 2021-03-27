@@ -27,6 +27,9 @@ public class OperatorsTester {
 
 		// test .result() returns result from operation
 		System.out.println(o.result());
+
+		// test .answer() prints formated answer to terminal
+		o.answer();
 	}
 
 }
