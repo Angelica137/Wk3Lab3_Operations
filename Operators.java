@@ -62,8 +62,13 @@ public class Operators {
 	public Integer result() {
 		Integer result;
 		if (operator().equals("+")) {
-			result = firstInt() + secondInt();
-			return result;
+			return result = firstInt() + secondInt();
+		} else if (operator().equals("-")) {
+			return result = firstInt() - secondInt();
+		} else if (operator().equals("*")) {
+			return result = firstInt() * secondInt();
+		} else if (operator().equals("/")) {
+			return result = firstInt() / secondInt();
 		} else {
 			return 404;
 		}

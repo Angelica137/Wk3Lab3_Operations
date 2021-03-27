@@ -17,3 +17,4 @@ Tip: you can use Integer.parseInt(s) to convert a String to an int. This operati
 ### Future
 
 refactor if else statments
+it would be good if I can autmate the testing
