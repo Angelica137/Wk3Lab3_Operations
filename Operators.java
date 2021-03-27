@@ -13,7 +13,13 @@ public class Operators {
 		input = inputIn;
 	}
 
-	// got input from command line
+	// getter
+	public String getInput() {
+		// gets the string the user entered
+		return input;
+	}
+
+	// get input from command line
 	public static void main(String[] args) {
 		Scanner user_input = new Scanner(System.in);
 		System.out.print("java Operators ");
@@ -23,5 +29,4 @@ public class Operators {
 		Operators o1 = new Operators(command);
 		System.out.println(o1);
 	}
-
 }

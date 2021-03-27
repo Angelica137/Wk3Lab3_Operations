@@ -1,9 +1,14 @@
+
 // test Operators class
+import java.util.Scanner;
 
 public class OperatorsTester {
 	public static void main(String[] args) {
-		// create Operators object
-		Operators o = new Operators("Hello, world!");
+		// test instantiate object from user intput
+		Scanner user_input = new Scanner(System.in);
+		System.out.print("java Operators ");
+		String command = user_input.next();
+		Operators o = new Operators(command);
 		System.out.println(o);
 
 	}
