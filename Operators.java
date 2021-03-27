@@ -23,7 +23,7 @@ public class Operators {
 	public static void main(String[] args) {
 		Scanner user_input = new Scanner(System.in);
 		System.out.print("java Operators ");
-		String command = user_input.next();
+		String command = user_input.nextLine();
 
 		// instantiae an object from user input
 		Operators o1 = new Operators(command);

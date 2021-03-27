@@ -7,7 +7,7 @@ public class OperatorsTester {
 		// test instantiate object from user intput
 		Scanner user_input = new Scanner(System.in);
 		System.out.print("java Operators ");
-		String command = user_input.next();
+		String command = user_input.nextLine();
 		Operators o = new Operators(command);
 		System.out.println(o);
 
