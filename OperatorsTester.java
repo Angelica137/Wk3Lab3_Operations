@@ -21,6 +21,12 @@ public class OperatorsTester {
 		// test .operator() returns the char corresponding to operator entered
 		System.out.println(o.operator());
 
+		// test returning the 1st and 2ndinteger
+		System.out.println(o.firstInt());
+		System.out.println(o.secondInt());
+
+		// test .result() returns result from operation
+		System.out.println(o.result());
 	}
 
 }

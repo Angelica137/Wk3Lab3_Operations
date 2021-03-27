@@ -28,7 +28,7 @@ public class Operators {
 	// check the first thing the user entered
 	public String operator() {
 		if (formatString()[0].equals("add")) {
-			return " + ";
+			return "+";
 		} else if (formatString()[0].equals("sum")) {
 			return "+";
 		} else if (formatString()[0].equals("substract")) {
@@ -44,6 +44,28 @@ public class Operators {
 		} else {
 			return "We do not decognise that operator";
 		}
+	}
 
+	// extract the first integers
+	public Integer firstInt() {
+		Integer int1 = Integer.parseInt(formatString()[1]);
+		return int1;
+	}
+
+	// extract the 2n integer
+	public Integer secondInt() {
+		Integer int2 = Integer.parseInt(formatString()[2]);
+		return int2;
+	}
+
+	// carry out operation
+	public Integer result() {
+		Integer result;
+		if (operator().equals("+")) {
+			result = firstInt() + secondInt();
+			return result;
+		} else {
+			return 404;
+		}
 	}
 }
