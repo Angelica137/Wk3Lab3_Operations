@@ -11,6 +11,9 @@ public class OperatorsTester {
 		Operators o = new Operators(command);
 		System.out.println(o);
 
+		// test .getInput() returns user input
+		System.out.println(o.getInput());
+
 	}
 
 }
