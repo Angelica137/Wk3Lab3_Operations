@@ -14,6 +14,9 @@ public class OperatorsTester {
 		// test .getInput() returns user input
 		System.out.println(o.getInput());
 
+		// test .formatString
+		System.out.println(o.formatString());
+
 	}
 
 }

@@ -19,6 +19,12 @@ public class Operators {
 		return input;
 	}
 
+	// transform user input into String and Integers
+	public String[] formatString() {
+		String[] words = getInput().split("\\s");
+		return words;
+	}
+
 	// get input from command line
 	public static void main(String[] args) {
 		Scanner user_input = new Scanner(System.in);
