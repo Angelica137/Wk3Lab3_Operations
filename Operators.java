@@ -26,5 +26,12 @@ public class Operators {
 	}
 
 	// check the first thing the user entered
+	public String operator() {
+		if (formatString()[0].equals("add")) {
+			return " + ";
+		} else {
+			return "error";
+		}
 
+	}
 }

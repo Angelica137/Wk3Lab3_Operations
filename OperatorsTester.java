@@ -16,6 +16,10 @@ public class OperatorsTester {
 
 		// test .formatString
 		System.out.println(o.formatString());
+		System.out.println(o.formatString()[0]);
+
+		// test .operator() returns the char corresponding to operator entered
+		System.out.println(o.operator());
 
 	}
 
